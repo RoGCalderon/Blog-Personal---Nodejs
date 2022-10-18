@@ -1,0 +1,35 @@
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('https://res.cloudinary.com/dkym2nit2/image/upload/v1665901372/aurora-1_kiilmi.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% ;
+    opacity: 1.9;
+    margin: 0;
+    margin-bottom: 4px;
+}
+
+.text-effect{
+     text-decoration: none;
+     background-image: linear-gradient(currentColor, currentColor);
+     background-position: 0% 100%;
+     background-repeat: no-repeat;
+     background-size: 0% 2px;
+     transition: background-size .3s;
+    
+    
+}
+.text-effect:hover, .text-effect:focus {
+    background-size: 100% 2px;
+}
+html {
+    min-height: 100%;
+    position: relative;
+  }
+
+.footer {
+    background-color: transparent;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+  }
