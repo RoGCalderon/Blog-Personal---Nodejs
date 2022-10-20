@@ -1,19 +1,19 @@
 <div class="mb-3">
-    <label for="title" class="form-label">Titulo</label>
+    <label for="title" class="form-label text-white">Titulo</label>
     <input required type="text" name="title" class="form-control" id="title" value="<%= article.title %> ">
 </div>
 <div class="mb-3">
-    <label for="description" class="form-label">Descripción</label>
+    <label for="description" class="form-label text-white">Descripción</label>
     <textarea class="form-control" name="description" id="description" rows="3"><%= article.description %> </textarea>
 </div>
 <div class="mb-3">
-    <label for="markdown" class="form-label">Resumen</label>
+    <label for="markdown" class="form-label text-white">Resumen</label>
     <textarea required class="form-control" name="markdown" id="markdown" rows="3"><%= article.markdown %></textarea>
 </div>
 
-<a href="/" class="btn btn-danger"> Cancelar</a> <!--Lleva de nuevo a la home-->
+<a href="/" class="btn btn-transparent text-white border-white"> Cancelar</a> <!--Lleva de nuevo a la home-->
 
-<button type="submit" class="btn btn-primary">
+<button type="submit" class="btn btn-transparent text-white border-white">
     Guardar
 </button>
  
